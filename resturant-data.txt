@@ -1,0 +1,34 @@
+
+[internal-config]
+    tax = 5.00
+    people = 2
+
+[Small]
+    cost = 3.80
+    long_arg = --small
+    short_arg = -s
+
+[Medium]
+    cost = 4.95
+    long_arg = --medium
+    short_arg = -m
+
+[Large]
+    cost = 5.80
+    long_arg = --large
+    short_arg = -l
+
+[Extra Large]
+    cost = 6.80
+    long_arg = --xlarge
+    short_arg = -x
+
+[Jumbo]
+    cost = 9.25
+    long_arg = --jumbo
+    short_arg = -j
+
+[10 Pancackes]
+   cost = 12.99
+   long_arg = --pancackes10
+   short_arg = -p10
