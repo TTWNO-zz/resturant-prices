@@ -4,14 +4,15 @@ import sys
 import pandas as pd
 from dish import Dish
 import configparser
-
-CONFIG_FILE = 'resturant-data.txt'
+import config as global_vars
 
 DISHES = []
 ordered_dishes = []
 
 config = configparser.ConfigParser()
-config.read(CONFIG_FILE)
+config.read(global_vars.resturant_data_file)
+
+# if the section isn't internal then make a dish object from it
 for section in config.sections():
     if 'internal-' not in section:
         dish_info = config[section]
