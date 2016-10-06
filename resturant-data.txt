@@ -39,5 +39,14 @@
     long_arg = --pancackes10
     short_arg = -p10
     notes = Because of limited supply, only 1 (one) allowed per order
-    maximum_order = 1
+    limit = 1
     name = Pancackes (10 stack)
+
+[Chef's Special]
+    type = dish
+    cost = 10.00
+    tax = 0
+    long_arg = --chefs-special
+    short_arg = -csl
+    limit = 1
+    notes = Only one per customer
