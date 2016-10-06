@@ -4,31 +4,40 @@
     people = 2
 
 [Small]
+    type = dish
     cost = 3.80
     long_arg = --small
     short_arg = -s
 
 [Medium]
+    type = dish
     cost = 4.95
     long_arg = --medium
     short_arg = -m
 
 [Large]
+    type = dish
     cost = 5.80
     long_arg = --large
     short_arg = -l
 
 [Extra Large]
+    type = dish
     cost = 6.80
     long_arg = --xlarge
     short_arg = -x
 
 [Jumbo]
+    type = dish
     cost = 9.25
     long_arg = --jumbo
     short_arg = -j
 
 [10 Pancackes]
-   cost = 12.99
-   long_arg = --pancackes10
-   short_arg = -p10
+    type = dish
+    cost = 12.99
+    long_arg = --pancackes10
+    short_arg = -p10
+    notes = Because of limited supply, only 1 (one) allowed per order
+    maximum_order = 1
+    name = Pancackes (10 stack)
